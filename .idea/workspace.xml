@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1a60e03-0403-4c3e-bbc2-5a6dccb2ae6d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/salmon/design/principle/compositereuse/DataBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/salmon/design/principle/compositereuse/UserDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/salmon/design/principle/liskovsubstitution1/ICourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/salmon/design/principle/liskovsubstitution1/JavaCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/salmon/design/principle/liskovsubstitution1/JavaDiscountCourse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/salmon/design/principle/liskovsubstitution1/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/salmon/design/principle/liskovsubstitution2/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/salmon/design/principle/liskovsubstitution2/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/salmon/design/principle/liskovsubstitution2/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/salmon/design/principle/liskovsubstitution3/Quadrangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/salmon/design/principle/liskovsubstitution3/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/salmon/design/principle/liskovsubstitution3/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/salmon/design/principle/liskovsubstitution3/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,13 +59,22 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/salmon/design/principle/liskovsubstitution2" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
-  <component name="RunManager" selected="Application.Test (3)">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.salmon.design.principle.liskovsubstitution3" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\大三\软件架构及设计模式\design_pattern\src\com\salmon\design\principle\liskovsubstitution2" />
+      <recent name="D:\code\大三\软件架构及设计模式\design_pattern\src\com\salmon\design\principle\liskovsubstitution" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Test (5)">
     <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.salmon.design.principle.dependenceiversion.Test" />
       <module name="design_pattern" />
@@ -95,12 +114,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.salmon.design.principle.openclose.Test" />
+    <configuration name="Test (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.salmon.design.principle.liskovsubstitution2.Test" />
       <module name="design_pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.salmon.design.principle.openclose.*" />
+          <option name="PATTERN" value="com.salmon.design.principle.liskovsubstitution2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.salmon.design.principle.liskovsubstitution3.Test" />
+      <module name="design_pattern" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.salmon.design.principle.liskovsubstitution3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,10 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test (5)" />
+        <item itemvalue="Application.Test (4)" />
         <item itemvalue="Application.Test (3)" />
         <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.Test (1)" />
-        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -140,7 +173,7 @@
       <option name="presentableId" value="Default" />
       <updated>1623577747241</updated>
       <workItem from="1623577749032" duration="3061000" />
-      <workItem from="1623590826839" duration="8522000" />
+      <workItem from="1623590826839" duration="11228000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1623579566520</created>
@@ -177,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623598747572</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="合成复用完成">
+      <created>1623601139722</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1623601139722</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,53 +229,54 @@
     <MESSAGE value="单一职责完成" />
     <MESSAGE value="接口隔离原则完成" />
     <MESSAGE value="demete原则完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="demete原则完成" />
+    <MESSAGE value="合成复用完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="合成复用完成" />
   </component>
   <component name="WindowStateProjectService">
     <state x="367" y="95" key="#Project_Structure" timestamp="1623577960811">
       <screen x="0" y="0" width="1549" height="871" />
     </state>
     <state x="367" y="95" key="#Project_Structure/0.0.1549.871@0.0.1549.871" timestamp="1623577960811" />
-    <state x="580" y="146" key="#com.intellij.ide.util.MemberChooser" timestamp="1623600849933">
+    <state x="580" y="146" key="#com.intellij.ide.util.MemberChooser" timestamp="1623603511901">
       <screen x="0" y="0" width="1549" height="871" />
     </state>
-    <state x="580" y="146" key="#com.intellij.ide.util.MemberChooser/0.0.1549.871@0.0.1549.871" timestamp="1623600849933" />
-    <state x="505" y="183" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1623598707343">
+    <state x="580" y="146" key="#com.intellij.ide.util.MemberChooser/0.0.1549.871@0.0.1549.871" timestamp="1623603511901" />
+    <state x="505" y="183" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1623602710848">
       <screen x="0" y="0" width="1549" height="871" />
     </state>
-    <state x="505" y="183" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1549.871@0.0.1549.871" timestamp="1623598707343" />
-    <state x="349" y="30" key="CommitChangelistDialog2" timestamp="1623598746951">
+    <state x="505" y="183" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1549.871@0.0.1549.871" timestamp="1623602710848" />
+    <state x="333" y="0" key="CommitChangelistDialog2" timestamp="1623601139102">
       <screen x="0" y="0" width="1549" height="871" />
     </state>
-    <state x="349" y="30" key="CommitChangelistDialog2/0.0.1549.871@0.0.1549.871" timestamp="1623598746951" />
+    <state x="333" y="0" key="CommitChangelistDialog2/0.0.1549.871@0.0.1549.871" timestamp="1623601139102" />
     <state x="555" y="178" key="FileChooserDialogImpl" timestamp="1623579537318">
       <screen x="0" y="0" width="1549" height="871" />
     </state>
     <state x="555" y="178" key="FileChooserDialogImpl/0.0.1549.871@0.0.1549.871" timestamp="1623579537318" />
-    <state width="1506" height="226" key="GridCell.Tab.0.bottom" timestamp="1623598728255">
+    <state width="1506" height="259" key="GridCell.Tab.0.bottom" timestamp="1623603875099">
       <screen x="0" y="0" width="1549" height="871" />
     </state>
-    <state width="1506" height="226" key="GridCell.Tab.0.bottom/0.0.1549.871@0.0.1549.871" timestamp="1623598728255" />
-    <state width="1506" height="226" key="GridCell.Tab.0.center" timestamp="1623598728255">
+    <state width="1506" height="259" key="GridCell.Tab.0.bottom/0.0.1549.871@0.0.1549.871" timestamp="1623603875099" />
+    <state width="1506" height="259" key="GridCell.Tab.0.center" timestamp="1623603875099">
       <screen x="0" y="0" width="1549" height="871" />
     </state>
-    <state width="1506" height="226" key="GridCell.Tab.0.center/0.0.1549.871@0.0.1549.871" timestamp="1623598728255" />
-    <state width="1506" height="226" key="GridCell.Tab.0.left" timestamp="1623598728255">
+    <state width="1506" height="259" key="GridCell.Tab.0.center/0.0.1549.871@0.0.1549.871" timestamp="1623603875099" />
+    <state width="1506" height="259" key="GridCell.Tab.0.left" timestamp="1623603875098">
       <screen x="0" y="0" width="1549" height="871" />
     </state>
-    <state width="1506" height="226" key="GridCell.Tab.0.left/0.0.1549.871@0.0.1549.871" timestamp="1623598728255" />
-    <state width="1506" height="226" key="GridCell.Tab.0.right" timestamp="1623598728255">
+    <state width="1506" height="259" key="GridCell.Tab.0.left/0.0.1549.871@0.0.1549.871" timestamp="1623603875098" />
+    <state width="1506" height="259" key="GridCell.Tab.0.right" timestamp="1623603875099">
       <screen x="0" y="0" width="1549" height="871" />
     </state>
-    <state width="1506" height="226" key="GridCell.Tab.0.right/0.0.1549.871@0.0.1549.871" timestamp="1623598728255" />
+    <state width="1506" height="259" key="GridCell.Tab.0.right/0.0.1549.871@0.0.1549.871" timestamp="1623603875099" />
     <state x="284" y="79" key="SettingsEditor" timestamp="1623577957732">
       <screen x="0" y="0" width="1549" height="871" />
     </state>
     <state x="284" y="79" key="SettingsEditor/0.0.1549.871@0.0.1549.871" timestamp="1623577957732" />
-    <state x="367" y="170" key="Vcs.Push.Dialog.v2" timestamp="1623598758840">
+    <state x="367" y="170" key="Vcs.Push.Dialog.v2" timestamp="1623601148649">
       <screen x="0" y="0" width="1549" height="871" />
     </state>
-    <state x="367" y="170" key="Vcs.Push.Dialog.v2/0.0.1549.871@0.0.1549.871" timestamp="1623598758840" />
+    <state x="367" y="170" key="Vcs.Push.Dialog.v2/0.0.1549.871@0.0.1549.871" timestamp="1623601148649" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -247,6 +288,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/salmon/design/principle/liskovsubstitution3/Test.java</url>
+          <line>23</line>
+          <properties class="com.salmon.design.principle.liskovsubstitution3.Test" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
