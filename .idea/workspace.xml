@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1a60e03-0403-4c3e-bbc2-5a6dccb2ae6d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/salmon/design/principle/demeter/Boss.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/salmon/design/principle/demeter/TeamLeader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/salmon/design/principle/demeter/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/salmon/design/principle/compositereuse/DataBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/salmon/design/principle/compositereuse/UserDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -141,7 +140,7 @@
       <option name="presentableId" value="Default" />
       <updated>1623577747241</updated>
       <workItem from="1623577749032" duration="3061000" />
-      <workItem from="1623590826839" duration="6918000" />
+      <workItem from="1623590826839" duration="8522000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1623579566520</created>
@@ -171,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623597752446</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="demete原则完成">
+      <created>1623598747572</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1623598747572</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,25 +188,26 @@
     <MESSAGE value="依赖倒置完成" />
     <MESSAGE value="单一职责完成" />
     <MESSAGE value="接口隔离原则完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="接口隔离原则完成" />
+    <MESSAGE value="demete原则完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="demete原则完成" />
   </component>
   <component name="WindowStateProjectService">
     <state x="367" y="95" key="#Project_Structure" timestamp="1623577960811">
       <screen x="0" y="0" width="1549" height="871" />
     </state>
     <state x="367" y="95" key="#Project_Structure/0.0.1549.871@0.0.1549.871" timestamp="1623577960811" />
-    <state x="580" y="146" key="#com.intellij.ide.util.MemberChooser" timestamp="1623597713823">
+    <state x="580" y="146" key="#com.intellij.ide.util.MemberChooser" timestamp="1623600849933">
       <screen x="0" y="0" width="1549" height="871" />
     </state>
-    <state x="580" y="146" key="#com.intellij.ide.util.MemberChooser/0.0.1549.871@0.0.1549.871" timestamp="1623597713823" />
+    <state x="580" y="146" key="#com.intellij.ide.util.MemberChooser/0.0.1549.871@0.0.1549.871" timestamp="1623600849933" />
     <state x="505" y="183" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1623598707343">
       <screen x="0" y="0" width="1549" height="871" />
     </state>
     <state x="505" y="183" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1549.871@0.0.1549.871" timestamp="1623598707343" />
-    <state x="349" y="30" key="CommitChangelistDialog2" timestamp="1623597751783">
+    <state x="349" y="30" key="CommitChangelistDialog2" timestamp="1623598746951">
       <screen x="0" y="0" width="1549" height="871" />
     </state>
-    <state x="349" y="30" key="CommitChangelistDialog2/0.0.1549.871@0.0.1549.871" timestamp="1623597751783" />
+    <state x="349" y="30" key="CommitChangelistDialog2/0.0.1549.871@0.0.1549.871" timestamp="1623598746951" />
     <state x="555" y="178" key="FileChooserDialogImpl" timestamp="1623579537318">
       <screen x="0" y="0" width="1549" height="871" />
     </state>
@@ -225,9 +232,23 @@
       <screen x="0" y="0" width="1549" height="871" />
     </state>
     <state x="284" y="79" key="SettingsEditor/0.0.1549.871@0.0.1549.871" timestamp="1623577957732" />
-    <state x="367" y="170" key="Vcs.Push.Dialog.v2" timestamp="1623597758928">
+    <state x="367" y="170" key="Vcs.Push.Dialog.v2" timestamp="1623598758840">
       <screen x="0" y="0" width="1549" height="871" />
     </state>
-    <state x="367" y="170" key="Vcs.Push.Dialog.v2/0.0.1549.871@0.0.1549.871" timestamp="1623597758928" />
+    <state x="367" y="170" key="Vcs.Push.Dialog.v2/0.0.1549.871@0.0.1549.871" timestamp="1623598758840" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/com/salmon/design/principle/demeter/Test.java</url>
+          <line>7</line>
+          <properties class="com.salmon.design.principle.demeter.Test" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
