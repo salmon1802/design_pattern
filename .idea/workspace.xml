@@ -2,15 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a1a60e03-0403-4c3e-bbc2-5a6dccb2ae6d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/salmon/design/principle/singleresponsibility/Bird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/salmon/design/principle/singleresponsibility/CourseImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/salmon/design/principle/singleresponsibility/FlyBird.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/salmon/design/principle/singleresponsibility/ICourse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/salmon/design/principle/singleresponsibility/ICourseContent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/salmon/design/principle/singleresponsibility/ICourseManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/salmon/design/principle/singleresponsibility/Method.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/salmon/design/principle/singleresponsibility/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/salmon/design/principle/singleresponsibility/WalkBird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/salmon/design/principle/interfacesegregation/Bird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/salmon/design/principle/interfacesegregation/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/salmon/design/principle/interfacesegregation/IAnimalAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/salmon/design/principle/interfacesegregation/IEatAnimalAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/salmon/design/principle/interfacesegregation/IFlyAnimalAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/salmon/design/principle/interfacesegregation/ISwimAnimalAction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -133,7 +130,7 @@
       <option name="presentableId" value="Default" />
       <updated>1623577747241</updated>
       <workItem from="1623577749032" duration="3061000" />
-      <workItem from="1623590826839" duration="4882000" />
+      <workItem from="1623590826839" duration="5956000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1623579566520</created>
@@ -149,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1623592882569</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="单一职责完成">
+      <created>1623596664683</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1623596664683</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,21 +162,22 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
     <MESSAGE value="依赖倒置完成" />
-    <option name="LAST_COMMIT_MESSAGE" value="依赖倒置完成" />
+    <MESSAGE value="单一职责完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="单一职责完成" />
   </component>
   <component name="WindowStateProjectService">
     <state x="367" y="95" key="#Project_Structure" timestamp="1623577960811">
       <screen x="0" y="0" width="1549" height="871" />
     </state>
     <state x="367" y="95" key="#Project_Structure/0.0.1549.871@0.0.1549.871" timestamp="1623577960811" />
-    <state x="580" y="146" key="#com.intellij.ide.util.MemberChooser" timestamp="1623596186662">
+    <state x="580" y="146" key="#com.intellij.ide.util.MemberChooser" timestamp="1623597713823">
       <screen x="0" y="0" width="1549" height="871" />
     </state>
-    <state x="580" y="146" key="#com.intellij.ide.util.MemberChooser/0.0.1549.871@0.0.1549.871" timestamp="1623596186662" />
-    <state x="349" y="30" key="CommitChangelistDialog2" timestamp="1623592881843">
+    <state x="580" y="146" key="#com.intellij.ide.util.MemberChooser/0.0.1549.871@0.0.1549.871" timestamp="1623597713823" />
+    <state x="349" y="30" key="CommitChangelistDialog2" timestamp="1623596664021">
       <screen x="0" y="0" width="1549" height="871" />
     </state>
-    <state x="349" y="30" key="CommitChangelistDialog2/0.0.1549.871@0.0.1549.871" timestamp="1623592881843" />
+    <state x="349" y="30" key="CommitChangelistDialog2/0.0.1549.871@0.0.1549.871" timestamp="1623596664021" />
     <state x="555" y="178" key="FileChooserDialogImpl" timestamp="1623579537318">
       <screen x="0" y="0" width="1549" height="871" />
     </state>
@@ -197,9 +202,9 @@
       <screen x="0" y="0" width="1549" height="871" />
     </state>
     <state x="284" y="79" key="SettingsEditor/0.0.1549.871@0.0.1549.871" timestamp="1623577957732" />
-    <state x="367" y="170" key="Vcs.Push.Dialog.v2" timestamp="1623592892030">
+    <state x="367" y="170" key="Vcs.Push.Dialog.v2" timestamp="1623596672887">
       <screen x="0" y="0" width="1549" height="871" />
     </state>
-    <state x="367" y="170" key="Vcs.Push.Dialog.v2/0.0.1549.871@0.0.1549.871" timestamp="1623592892030" />
+    <state x="367" y="170" key="Vcs.Push.Dialog.v2/0.0.1549.871@0.0.1549.871" timestamp="1623596672887" />
   </component>
 </project>
